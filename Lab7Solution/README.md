@@ -13,6 +13,12 @@ Test Deployment using Postman or Curl
 
 ### STEP 1 - INSTALL DOCKER IMAGES & SET UP MYSQL DB
 ```
+SQL image Installation
+docker run --name=lab7mysql -d -p 3306:3306 --name mysql --env MYSQL_ROOT_PASSWORD=password mysql:5.5
+CREATE DATABASE cmpe281
+```
+
+```
 Download the following Docker Images Versions:
 
     mysql v5.5
