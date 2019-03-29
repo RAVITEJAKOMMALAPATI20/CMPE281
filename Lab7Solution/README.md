@@ -34,7 +34,7 @@ After MySQL Image is install, startup MySQL Docker Image and create the followin
 
     insert into gumball ( id, version, count_gumballs, model_number, serial_number ) 
     values ( 1, 0, 1000, 'M102988', '1234998871109' ) ;
-    ```
+```
 ### STEP 2 - Modify and Test Go Gumball API
     
 ```
@@ -64,12 +64,9 @@ Configure Kong API Gateway as follows:
 
     Create an API with request path "/goapi" to route to the Gumball API
     Add the "File Log" Plugin to your Kong API with file path of "/tmp/kong.log"
-    
-    ```
-    
-    
+```
+       
 ### STEP 5 - Test Your Deployment using Postman or Curl
-
 
 ```
 Perform the following API calls (using Curl or Postman) against your Kong API Endpoint:
