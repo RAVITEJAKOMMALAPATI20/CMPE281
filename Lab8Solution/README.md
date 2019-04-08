@@ -8,15 +8,15 @@ mongo
 show dbs
 use cmpe281
 db.dropDatabase()
-db.gumball.insert(
+ db.gumball.insert(
         { 
-          _id: 1,
+          Id: 1,
           CountGumballs: NumberInt(202),
           ModelNumber: 'M102988',
           SerialNumber: '1234998871109' 
         }
     ) ;
-    db.gumball.find({_id:1});
+    db.gumball.find({Id:1});
 
 ```
 
